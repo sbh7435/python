@@ -79,6 +79,8 @@ def with_if_statement():
 
 def with_if_function():
     return if_function(c(), t(), f())
+    # here c(), t(), f() are evaluated before passing 
+    # but in case of if-else they are not evaluated before
 
 def c():
     "*** YOUR CODE HERE ***"
